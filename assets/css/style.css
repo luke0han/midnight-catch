@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
     background-color: #212529;
 }
 
@@ -45,6 +45,14 @@ body {
 }
 
 /* Navbar */
+img:not(.rounded-circle) {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.logo{
+    max-width: 200px;
+}
 
 .navalert-container {
     position: absolute;
@@ -56,6 +64,7 @@ body {
 }
 
 .navbar {
+ 
     margin-bottom: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, .25);
@@ -67,15 +76,22 @@ body {
 }
 
 .navbar .navbar-brand {
-    font-weight: bold;
+    font-weight:normal ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .navbar .navbar-nav a {
-    font-weight: bold;
+     float: left;
+    font-weight: normal;
+    text-transform: uppercase;
+     letter-spacing: 2px;
 }
 
 .navbar .navbar-nav a:hover {
-    font-weight: bold;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     color: #6542f4;
 }
 
@@ -88,9 +104,9 @@ body {
 
 .jumbotron h1 {
     font-family: 'Anton', sans-serif;
+    font-size:9vw;
     text-transform: uppercase;
     color: white;
-    
     margin-bottom: 30px;
 }
 
@@ -134,16 +150,16 @@ body {
     width: 160px;
 }
 
-.btn--red {
+.btn--purple {
     color: white;
     background-color: #6542f4;
     border-color: #6542f4;
 }
 
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
+.btn--purple:hover,
+.btn--purple:active,
+.btn--purple:focus,
+.btn--purple:active:focus {
     background-color: #fff;
     border-color: #fff;
     color: #6542f4;
@@ -172,11 +188,18 @@ body {
 .blockquote {
     color: #fff;
 }
+
+.blockquote p {
+        font-weight: normal;
+        letter-spacing: 1px;
+}
+
 /* Features */
 
 .feature {
     text-align: center;
     margin-bottom: 40px;
+    letter-spacing: 1px;
 }
 
 .feature i {
@@ -194,3 +217,79 @@ body {
     margin-top: 10px;
     color: #6542f4;
 }
+
+.feature .btn:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.media {
+    margin: 50px;
+    
+}
+
+
+/* Footer */
+
+footer {
+    background: #000 url("../images/bokeh-316425_960_720.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    color: #fff;
+    min-height: 120px;
+    margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color:#fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color:#fff;
+    background: #6542f4;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #fff;
+    color: #6542f4;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
