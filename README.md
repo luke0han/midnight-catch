@@ -12,7 +12,7 @@ This website is for fans and potential fans of Midnight Change. The website will
 - As a fan of the greatest rock band, Midnight Change, I would like to know when they release new music so I can keep up to date with them.
 - As a bride to be I am searching for the perfect band to make my special day even more magical, I want to listen to music from the band and see what they are like while performing live, so I can make sure I am making the right choice.
 
-Here are the links to the wireframes, mockups, diagrams etc. created as part of the design process.
+Here are the links to the [wireframes](https://wireframe.cc/PWEADn)
 
 ## Features
 
@@ -97,9 +97,8 @@ In this section I used the following technologies:
 - GitHub
 - SoundCloud
 - YouTube
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+- Canva
+- Gimp
 
 ## Testing
 
@@ -123,22 +122,13 @@ Example:
 This testing has been done for all user stories.
 
 ### Bugs
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
+- Getting an overlay on the gallery section to act as a link.
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+- GitHub
 
 ## Credits
+- [W3schools](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
 
 ### Content
 - The text for the webiste was written by me.
@@ -150,4 +140,4 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- I received inspiration for this project from the tutors at [Code Institute](codeinstitute.com), my mentor Dick
+- I received inspiration for this project from the tutors at [Code Institute](codeinstitute.com), and my mentor Dick Vlaanderen for some Javascript tips.# midnight-catch
