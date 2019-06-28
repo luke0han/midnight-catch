@@ -1,8 +1,9 @@
 # Midnight Change
 
-This is a website for the band Midnight Change. This website showcases the 60’s rock band music, images and videos. 
+This is a website for the (fictional) band Midnight Change. This website showcases the 60’s rock band music, images and videos. 
 The website also shows that Midnight Change are available to hire for various types of events.
 
+[Midnight Change](https://midnight-catch-milestone1-luke0han.c9users.io/index.html)
 
 ## UX
 
@@ -121,6 +122,9 @@ Example:
     
 This testing has been done for all user stories.
 
+### What Does Not Work
+- Facebook and Twitter links are to accounts that do not exist. 
+
 ### Bugs
 - Getting an overlay on the gallery section to act as a link.
 
@@ -134,11 +138,10 @@ This testing has been done for all user stories.
 - The text for the webiste was written by me.
 
 ### Media
-- The photos and videos used in this site were obtained from [Pexels](pexels.com) and [Pixabay](pixabay.com). 
-- The music for this site was taken from [Bensound](https://www.bensound.com/royalty-free-music).
-- I created the logo for this website.
+- The photos and videos used in this site were obtained from [Pexels](pexels.com) and [Pixabay](pixabay.com) to portay a band. 
+- The music for this site was taken from [Bensound](https://www.bensound.com/royalty-free-music). The music was used for the audio and placed over the band video.
+- I created the logo for this website. I also created the band name and all text on the site.
 
 ### Acknowledgements
 
-- I received inspiration for this project from the tutors at [Code Institute](codeinstitute.com), and my mentor Dick Vlaanderen for some Javascript tips.# midnight-catch
-# midnight-catch
+- I received inspiration for this project from the tutors at [Code Institute](codeinstitute.com), and my mentor Dick Vlaanderen for some Javascript tips.
