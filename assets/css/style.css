@@ -152,7 +152,7 @@ img:not(.rounded-circle) {
 
     margin-bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(0, 0, 0, .8);
     border: 0;
 }
 
@@ -164,6 +164,7 @@ img:not(.rounded-circle) {
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 2px;
+    
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -175,6 +176,7 @@ img:not(.rounded-circle) {
 }
 
 .navbar .navbar-nav a {
+     color:#cc00cc;
     float: left;
     font-weight: normal;
     text-transform: uppercase;
@@ -319,6 +321,7 @@ img:not(.rounded-circle) {
     font-weight: normal;
     font-size: 20px;
     letter-spacing: 1px;
+    
 }
 
 .blockquote-contact a {
@@ -326,8 +329,11 @@ img:not(.rounded-circle) {
     font-size: 20px;
     font-weight: normal;
     letter-spacing: 1px;
+  
 }
-
+.col-12 {
+    padding-right: 0!important;
+}
 /* Features */
 
 .feature {
@@ -375,6 +381,20 @@ img:not(.rounded-circle) {
     margin: 50px;
 }
 
+.media-body2 {
+    display: block;
+    margin: auto;
+   
+}
+
+.mobile-contact {
+    display: block;
+}
+.contact-desk{
+    margin: 20px 0;
+    padding: 0;
+}
+.contact-mobile{margin: 10px 0;}
 .media {
     margin: auto;
 }
@@ -641,4 +661,10 @@ footer a:hover {
     color: #fff;
     background-color: #cc00cc;
     border-radius: 10px;
+}
+
+.navbar-nav .dropdown-menu {
+    position: absolute!important; 
+    float: none;
+
 }

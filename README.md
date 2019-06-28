@@ -126,7 +126,7 @@ This testing has been done for all user stories.
 - Facebook and Twitter links are to accounts that do not exist. 
 
 ### Bugs
-- Getting an overlay on the gallery section to act as a link.
+- Getting the pictures and text to stack properly on mobile view. I ended up displaying images and text on mobile and not desktop and re-sizing them.
 
 ## Deployment
 - GitHub
